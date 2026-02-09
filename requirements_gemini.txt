@@ -1,0 +1,26 @@
+# Agri-Mind Dashboard Requirements - Enhanced Version
+
+# Core Framework
+streamlit==1.31.0
+
+# Map Libraries
+folium==0.15.1
+streamlit-folium==0.16.0
+
+# Data Processing
+numpy==1.24.3
+pandas==2.0.3
+
+# Visualization
+matplotlib==3.7.2
+
+# AI Integration
+google-generativeai==0.3.2
+
+# Satellite Data (for future real implementation)
+pystac-client==0.7.5
+stackstac==0.5.0
+rasterio==1.3.9
+
+# Additional Utilities
+Pillow==10.2.0
