@@ -168,7 +168,7 @@ def get_gemini_advice(crop_name: str, zones: Dict[str, float], coords: List[floa
         genai.configure(api_key=api_key)
         
         # Use gemini-1.5-flash (the correct model name)
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.5-flash')
         
         prompt = f"""
 أنت خبير زراعي مصري متخصص في الزراعة الدقيقة. حلّل البيانات التالية وقدم نصائح عملية بالعامية المصرية:
